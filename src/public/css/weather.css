@@ -1,0 +1,33 @@
+body {
+  /*background-color: aquamarine;*/
+  background: url('/static/images/weather.jpeg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.row {
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+}
+
+#weather {
+  display: flex;
+  justify-content: center;
+}
+
+#weather-block {
+  background-color: mediumslateblue;
+  color: cornsilk;
+}
+
+.col-sm-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border-color: mediumpurple;
+}
